@@ -23,7 +23,7 @@ public class AppController {
 		return s.insertData(p);
 	}
 
-	@GetMapping("\display")
+	@GetMapping("/display")
 	public List<Product> display() {
 		return s.displayData();
 	}
